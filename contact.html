@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/png" href="nocolor.png"/>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<title>SINGLE & Whole Outreach</title>
+	<script type="text/javascript">
+function hgsubmit()
+{
+if (/\S+/.test(document.hgmailer.name.value) == false) alert ("Please provide your name.");
+else if (/^\S+@[a-z0-9_.-]+\.[a-z]{2,6}$/i.test(document.hgmailer.email.value) == false) alert ("A valid email address is required.");
+ else if (/\S+/.test(document.hgmailer.comment.value) == false) alert ("Your email content is needed.");
+  else {
+       document.hgmailer.submit();
+       alert ('Thank you!\nYour email was sent.');
+       }
+}
+</script>
+	</head>
+	<style>
+		.topnav{
+		background-color:#6D7F9D;
+		border:3px solid #ffffff; 
+		border-radius:8px;
+		}
+	</style>
+	<body>
+	
+	<div class="topnav" id="myTopnav">
+  <a href="SINGLE & Whole Outreach.html" class="active"><i class="fa fa-fw fa-home" style="font-size:1.5em;"></i></a>
+  <a href="about.html">About</a>
+  <a href="events.html">Events</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  
+	<div class="rainbow-text">
+			<h1 style="font-family:Lucida Calligraphy; line-height:0.8;"><font size="32"><center>SINGLE & Whole<br>Outreach</center></h1></font></div>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<img src="officeview.jpeg" alt="Office View" class="bg-img">
+	<div class="wrapper">
+		<div class="contact-us">
+			<div class="title">Contact Us</div>
+			
+<form action="http://www.singleandwholeoutreach.com/cgi-sys/formmail.pl" method="post" name="hgmailer">
+<input type="hidden" name="recipient" value="loriwarren@singleandwholeoutreach.com">
+<input type="hidden" name="subject" value="FormMail E-Mail">
+<input type="text" name="name" placeholder="Enter Name"><br>
+<input type="text" name="email" placeholder="Enter Email"><br>
+<input type="text" name="subject" placeholder="Enter Subject"><br>
+<textarea type="text" name="comment" placeholder="Enter Message" style="height:200px"></textarea>
+<input type="submit" value="SEND" onclick="hgsubmit();" class="btn-info">
+<input type="hidden" name="redirect" value="http://www.singleandwholeoutreach.com/redirect-path">
+
+</form></div></div>
+
+ <div class="footer-container"><br><br>
+																		<div>   
+                        <a class="btn" href="#"><span>&uArr;</span><br>TOP</a></div>
+                        
+
+                <div class="fa-icon">		 
+                <a href="https://www.facebook.com/singleandwholeoutreach" target="_blank" class="fa fa-facebook" ></a>
+				<a href="https://twitter.com/loriwarren111" target="_blank" class="fa fa-twitter"></a>
+				<a href="https://instagram.com/lori.warren11" target="_blank" class="fa fa-instagram"></a>
+				</div>
+                                </div>
+                            
+							
+                                <div class="footer"><h3>Copyright&copy; 2018 L.E. Warren, All Rights Reserved</h3></div>            
+
+	</body>
+	</html>
