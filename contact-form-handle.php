@@ -1,18 +1,26 @@
 <?php
-	$to="singleandwholeoutreach@gmail.com";
-	$Subject="Email from my website";
+	$name = $_POST['name'];
+	$visitor_email = $_POST['email'];
+	$message = $_POST['message'];
+
 	
+	$email_from = 'lori0811.github.io/SWO';
 	
-	$name=$_POST['name'];
-	$email=$_POST['email'];
-	$comment=$_POST['comment'];
+	$email_subject = "New Form Submission";
 	
+	$email_body = "User Name: $name.\n".
+					"User Email: $visitor_email.\n"
+						"User Message: $message.\n";
+						
 	
-	$headers.="Content-type: text/html;\r\n";
-	$herders.="From: $email";
+	$to = "singleandwholeoutreach@gmail.com";
 	
+	$herders .= "From: $email_from \r\n";
 	
-	mail($to,$Subject,$comment,$headers);
+	$headers .= "Reply-To: $visitor_email \r\n";
 	
-	echo "Email has been sent! Thank you $name";
+	mail($to,$email_subject,$email_body,$headers);
+	
+	header("Location: contact.html");
+	
 ?>
