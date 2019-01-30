@@ -437,9 +437,6 @@ body{
 .event1 a{
 	color:#312D2C;
 }
-.event1 a:hover{
-	color:red;
-}
 .event1 img{
 	padding-left:80px;
 	display:block;
@@ -462,9 +459,6 @@ body{
 }
 .event2 a{
 	color:#ffffff;
-}
-.event2 a:hover{
-	color:red;
 }
 .event2 img{
 	padding-left:120px;
