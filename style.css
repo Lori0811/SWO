@@ -497,11 +497,11 @@ body{
 .wrapper{
 	position:absolute;
 	top:100%;
-	left:150px;
+	left:140px;
 	transform: translate(-50%, -50%);
 }
 .contact-us{
-	width:80%;
+	width:90%;
 	height:500px;
 	background: rgba(0,0,0,0.5);
 	padding:40px 150px;
